@@ -1,0 +1,7 @@
+streamlit>=1.38
+openai>=1.40
+# Pinned: mcp 2.0.0 restructured server.fastmcp / types modules with breaking
+# changes. 1.9.4 is the last release confirmed compatible with the
+# mcp.server.fastmcp.FastMCP API this project uses.
+mcp==1.9.4
+pytest>=8.0
